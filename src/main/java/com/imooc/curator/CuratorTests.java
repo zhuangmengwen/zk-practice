@@ -38,6 +38,6 @@ public class CuratorTests {
 		System.out.println(new String(bytes));
 		client.setData().forPath(path, data2.getBytes());
 		client.delete().forPath(path);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 	}
 }
